@@ -54,7 +54,7 @@ const chartData = [
   },
 ];
 
-export const AreaChartComponent = () => {
+const AreaChartComponent = () => {
   return (
     <AreaChart
       dataKey="price"
@@ -67,3 +67,6 @@ export const AreaChartComponent = () => {
     />
   );
 };
+
+export default AreaChartComponent;
+
